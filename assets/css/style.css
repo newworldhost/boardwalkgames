@@ -17,7 +17,13 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+   ;
+}
+h1, h2 {
     text-transform:uppercase;
+}
+h2 {
+    margin-bottom:2rem;
 }
 .sub-heading-color {
     color:var(--highlight-color);
@@ -25,6 +31,16 @@ h1, h2, h3 {
 #/* header */
 #header .lead {
     font-family:var(--secondary-font);
+}
+/* services section */
+#services .card-footer {
+    font-weight:bold;
+    color:var(--highlight-color);
+    background-color:transparent;
+}
+/* adding space between cards */
+#services .card {
+    margin-bottom:2rem;
 }
 /* navbar */
 #navbar {
