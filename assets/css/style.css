@@ -61,3 +61,35 @@ h2 {
     border:2px solid white;
     background-color:lightgray
 } */
+
+/* media queries */
+/* this section is used to make responsive layout on smaller and larger screens */
+/* do not edit this section */
+/* medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* makes all cards the same height to keep it consistent */
+    #services .card-body {
+        min-height:191px;
+    }
+}
+/* large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /* makes all cards the same height to keep it consistent */
+    #services .card-body {
+        min-height:auto;
+    }
+}
+/* xl large devices (desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* makes all cards the same height to keep it consistent */
+    #services .card-body {
+        min-height:220px;
+    }
+}
+/* xxl large devices (desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* makes all cards the same height to keep it consistent */
+    #services .card-body {
+        min-height:195px;
+    }
+}
