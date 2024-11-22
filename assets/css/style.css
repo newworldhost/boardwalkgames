@@ -29,7 +29,7 @@ h2 {
 .sub-heading-color {
     color:var(--highlight-color);
 }
-#/* header */
+/* header */
 #header .lead {
     font-family:var(--secondary-font);
 }
