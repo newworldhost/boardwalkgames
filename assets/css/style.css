@@ -53,6 +53,17 @@ h2 {
     background-color:var(--secondary-color);
     color:white;
 }
+/* event table css */
+.eventtable {
+    margin:50px auto;
+    border:1px solid var(--highlight-color);
+}
+tr, td {
+    border:1px solid var(--highlight-color);
+    padding:10px;
+    text-align:center;
+}
+
 /* custom button outline */
 .custom-button-outline {
     border: 3px solid var(--highlight-color);
@@ -63,8 +74,8 @@ h2 {
         background-color:var(--highlight-color);
         color:white;
 
-    }
 }
+
 /* navbar */
 #navbar {
     background-color:var(--primary-color);
